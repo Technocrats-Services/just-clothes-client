@@ -79,7 +79,7 @@ const CardTiles = (props) => {
             onClick={(e) => {
               e.preventDefault();
               window.open(url, "_blank");
-              // window.location.href = "http://google.com";
+              // winfdow.location.href = "http://google.com";
             }}
           >
             Click Here
