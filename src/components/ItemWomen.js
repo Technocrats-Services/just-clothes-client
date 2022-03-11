@@ -15,9 +15,9 @@ const ItemWomen = () => {
     axios
       .get("https://rocky-depths-93645.herokuapp.com/api/item/women")
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         const myItem = response.data;
-        console.log(myItem);
+        // console.log(myItem);
         setItems(myItem);
       });
   };
