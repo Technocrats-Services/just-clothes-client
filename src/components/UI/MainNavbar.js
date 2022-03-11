@@ -39,14 +39,18 @@ const MainNavbar = () => {
               </Nav.Link>
             </Link>
             <Link to="/item" style={{ textDecoration: "none", color: "black" }}>
-              <Nav.Link href="#link">Item</Nav.Link>
+              <Nav.Link href="#link">About US</Nav.Link>
             </Link>
             <Link to="/item/men" style={{ textDecoration: "none" }}>
-              <Nav.Link href="#link">Men</Nav.Link>
+              <Nav.Link href="#link">Privacy Policy</Nav.Link>
             </Link>
             <Link to="/item/women" style={{ textDecoration: "none" }}>
-              <Nav.Link href="#link">Women</Nav.Link>
+              <Nav.Link href="#link">Terms&Conditions</Nav.Link>
             </Link>
+            {/* <Link to="/support " style={{ textDecoration: "none" }}>
+              <Nav.Link href="#link">Support</Nav.Link>
+            </Link> */}
+            <a className="mt-2 ms-2" style={{color:"grey",textDecoration:"none"}} href="mailto:justcloths.in@gmail.com"><p>Support</p></a>
             <Link to="/">
               <Button variant="primary" className="ms-md-5">
                 Go Back

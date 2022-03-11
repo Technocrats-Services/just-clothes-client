@@ -37,7 +37,29 @@ function Pcb3() {
     //     </div>
     //   )
     // }
+    const [visible, setVisible] = useState(false)
   
+    const toggleVisible = () => {
+      const scrolled = document.documentElement.scrollTop;
+      if (scrolled > 300){
+        setVisible(true)
+      } 
+      else if (scrolled <= 300){
+        setVisible(false)
+      }
+    };
+    
+    const scrollToTop = () =>{
+      window.scrollTo({
+        top: 0, 
+        behavior: 'smooth'
+        /* you can also use 'auto' behaviour
+           in place of 'smooth' */
+      });
+    };
+  
+    window.addEventListener('scroll', toggleVisible);
+    
   const [imgIndex,setImgIndex] = useState(0)
   
   const settings = {
@@ -66,7 +88,7 @@ function Pcb3() {
             </div>
           ))}
         </Slider>
-        <button className=" p-1 px-5 mb-5  btn btn-primary">Lets get started</button>
+        <button className=" p-1 px-5 mb-5  btn btn-primary" onClick={scrollToTop}>Lets get started</button>
       </div>
     );
   }
