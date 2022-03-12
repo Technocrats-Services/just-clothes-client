@@ -3,14 +3,14 @@ import "./App.css";
 
 export default function Pcb2() {
   return (
-    <div className="bckg bg-image pt-5 px-4 overflow-scroll">
+    <div className="bckg bg-image pt-5 px-4 overflow-hidden">
       <div className="blc2 opacity-75 " style={{ color: "black" }}>
-        <h2
+        <h1
           style={{ marginTop: "3vw", marginBottom: "3vw" }}
           className=" text-center"
         >
           How It Works ?
-        </h2>
+        </h1>
         <p>
           How It Works ? Hello, JustClothes brings to you premium quality
           clothing from various platforms and provides you with absolutely

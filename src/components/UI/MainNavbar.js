@@ -38,14 +38,33 @@ const MainNavbar = () => {
                 Home
               </Nav.Link>
             </Link>
-            <Link to="/item" style={{ textDecoration: "none", color: "black" }}>
-              <Nav.Link href="#link">Item</Nav.Link>
+            <NavDropdown title="Item" id="basic-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/item">
+                Item
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/item/men">
+                Men
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/item/women">
+                Women
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Link
+              to="/about-us"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <Nav.Link href="#link">About Us</Nav.Link>
             </Link>
-            <Link to="/item/men" style={{ textDecoration: "none" }}>
-              <Nav.Link href="#link">Men</Nav.Link>
+            <Link to="/privacy-policy" style={{ textDecoration: "none" }}>
+              <Nav.Link href="#link">Privacy Policy</Nav.Link>
             </Link>
-            <Link to="/item/women" style={{ textDecoration: "none" }}>
-              <Nav.Link href="#link">Women</Nav.Link>
+            <Link to="/term-and-conditions" style={{ textDecoration: "none" }}>
+              <Nav.Link href="#link">Term & Conditions</Nav.Link>
+            </Link>
+            <Link to="/support" style={{ textDecoration: "none" }}>
+              <Nav.Link href="#link">Support</Nav.Link>
             </Link>
             <Link to="/">
               <Button variant="primary" className="ms-md-5">

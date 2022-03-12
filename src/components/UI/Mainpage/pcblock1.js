@@ -26,11 +26,11 @@ export default function Pcb1() {
       <div className="row">
         <div className="col-lg-6 mt-3">
           <form>
-            <h1 className="mt-5 p-3 animate__animated animate__zoomIn animate__delay-1s">
+            <h1 className="mt-5 p-3 ">
               Trending Cloths For You...
             </h1>
             <select
-              className="form-select mt-2 animate__animated animate__zoomIn animate__delay-1s"
+              className="form-select mt-2 "
               aria-label="Default select example"
               onChange={selectHandler}
             >
@@ -39,14 +39,14 @@ export default function Pcb1() {
               <option value="2">Women</option>
             </select>
             <button
-              className="mt-3 p-1 px-5 btn btn-primary animate__animated animate__zoomIn animate__delay-1s"
+              className="mt-3 p-1 px-5 btn btn-primary "
               onClick={submitHandler}
             >
               Search
             </button>
           </form>
         </div>
-        <div className="col-lg-6 animate__animated animate__zoomIn animate__delay-1s">
+        <div className="col-lg-6 ">
           <img className="img-fluid" src={image} alt="girls" />
         </div>
       </div>
