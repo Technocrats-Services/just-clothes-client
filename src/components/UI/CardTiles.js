@@ -60,7 +60,15 @@ const CardTiles = (props) => {
       md="auto"
       className="d-flex justify-content-center align-self-center mb-3 "
     >
-      <Card className=" m-0 m-md-3 align-self-center product-base">
+      <Card
+        onClick={(e) => {
+          e.preventDefault();
+          window.open(url, "_blank");
+          // winfdow.location.href = "http://google.com";
+        }}
+        style={{ cursor: "pointer" }}
+        className=" m-0 m-md-3 align-self-center product-base"
+      >
         <Card.Img
           variant="top"
           src={props.item.photo}
@@ -72,7 +80,7 @@ const CardTiles = (props) => {
             {props.item.description}
           </p>
 
-          <Button
+          {/* <Button
             className="d-grid gap-2 m-3 ms-auto me-auto btnClickHere "
             variant="primary"
             size="lg"
@@ -83,7 +91,7 @@ const CardTiles = (props) => {
             }}
           >
             Click Here
-          </Button>
+          </Button> */}
         </Card.Body>
       </Card>
     </Col>
