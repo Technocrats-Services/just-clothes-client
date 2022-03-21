@@ -79,7 +79,7 @@ function Pcb3() {
     return (
       <div className="pp" >
         <h1 className="pt-5 pb-4 ">India's trending cloths for you..</h1>
-        <Slider  {...settings}>
+        <div className="me-5"><Slider  {...settings}>
           {images.map((img, idx) => (
        
             <div className={idx === imgIndex ? "slide activeSlide" : "slide"}>
@@ -87,7 +87,7 @@ function Pcb3() {
               <img src={img} alt={idx} />
             </div>
           ))}
-        </Slider>
+        </Slider></div>
         <button className=" p-1 px-5 mb-5  btn btn-primary" onClick={scrollToTop}>Lets get started</button>
       </div>
     );

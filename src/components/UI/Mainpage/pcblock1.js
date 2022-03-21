@@ -30,7 +30,7 @@ export default function Pcb1() {
               Trending Cloths For You...
             </h1>
             <select
-              className="form-select mt-2 "
+              className="form-select mt-2 rounded-pill "
               aria-label="Default select example"
               onChange={selectHandler}
             >

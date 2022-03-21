@@ -31,7 +31,7 @@ export default function Footer() {
           </a>
         </span>
       </h6>
-      <p className="pb-3 mb-0 text-center">Copyright@2022 justcloths.in</p>
+      <p className="pb-3 m-0 text-center">Copyright@2022 justcloths.in</p>
     </div>
   );
 }

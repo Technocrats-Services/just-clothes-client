@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function Pcb2() {
   return (
-    <div className="bckg bg-image pt-5 px-4 overflow-hidden">
+    <div className="bckg bg-image pt-5 px-1 overflow-hidden">
       <div className="blc2 opacity-75 " style={{ color: "black" }}>
         <h1
           style={{ marginTop: "3vw", marginBottom: "3vw" }}
@@ -23,7 +23,7 @@ export default function Pcb2() {
           anywhere, we provide you all premium quality clothes for girls and
           boys with good reviews from people on our platform itself, the
           platform we have is many Connected with the platform so that you will
-          never have any problem
+          never have any problem.
         </p>
       </div>
     </div>
