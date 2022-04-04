@@ -12,7 +12,7 @@ export default function Pcb2() {
           How It Works ?
         </h1>
         <p>
-          How It Works ? Hello, JustClothes brings to you premium quality
+          Hello, JustClothes brings to you premium quality
           clothing from various platforms and provides you with absolutely
           premium quality clothing for you by removing many other drawbacks
           along with good reviews of clothing and clothing. You have to go on

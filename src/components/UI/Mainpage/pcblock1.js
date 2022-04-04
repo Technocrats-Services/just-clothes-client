@@ -39,7 +39,7 @@ export default function Pcb1() {
               <option value="2">Women</option>
             </select>
             <button
-              className="mt-3 p-1 px-5 btn btn-primary "
+              className="mt-3 p-1 px-5 btn btn-primary rounded-pill"
               onClick={submitHandler}
             >
               Search
